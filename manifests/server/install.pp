@@ -16,11 +16,9 @@
 # file at the top of the source tree.
 #
 class ntp::server::install {
-    include ntp::common::install
-
-    package { $ntp::params::server::packagename:
-        ensure => present,
-    }
+  package { $ntp::params::server::packagename:
+    ensure => present,
+  }
 }
 
-# vim:sw=4:ts=4:expandtab:textwidth=79
+# vim:sw=2:ts=2:expandtab:textwidth=79
