@@ -1,5 +1,5 @@
 name    'kickstandproject-ntp'
-version '0.0.3'
+version '0.0.1'
 author 'Paul Belanger'
 license 'GPLv2'
 summary 'UNKNOWN'
