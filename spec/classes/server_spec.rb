@@ -8,12 +8,6 @@ describe 'ntp::server' do
       :operatingsystem  => 'Ubuntu',
     } }
 
-    let(:params) { { :monitor => false } }
-
-    it do
-      should_not contain_class('ntp::server::monitor')
-    end
-
     it do
       should contain_file('/etc/ntp.conf').with({
         'ensure'  => 'file',
