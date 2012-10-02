@@ -1,5 +1,5 @@
 name    'kickstandproject-ntp'
-version '0.0.3'
+version '0.0.4'
 author 'kickstandproject'
 license 'Apache 2.0'
 summary 'UNKNOWN'
